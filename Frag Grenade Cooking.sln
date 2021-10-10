@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frag_Grenade_Cooking", "Frag Grenade Cooking\Frag_Grenade_Cooking.csproj", "{5D3C9907-8EA0-4D33-9D58-A20933F00F3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D3C9907-8EA0-4D33-9D58-A20933F00F3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D3C9907-8EA0-4D33-9D58-A20933F00F3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D3C9907-8EA0-4D33-9D58-A20933F00F3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D3C9907-8EA0-4D33-9D58-A20933F00F3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B0B2414-E1A1-4DAD-B9CD-E9E24EE500CA}
+	EndGlobalSection
+EndGlobal
