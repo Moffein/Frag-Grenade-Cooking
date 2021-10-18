@@ -8,7 +8,7 @@ namespace EntityStates.Frag_Grenade_Cooking
     public class ThrowGrenade : GenericProjectileBaseState
     {
         public static GameObject _projectilePrefab;
-        public static float _damageCoefficient = 12f;
+        public static float _damageCoefficient = 14f;
         public static float _force = 1000f;
         public static float _minSpread = 0f;
         public static float _maxSpread = 0f;

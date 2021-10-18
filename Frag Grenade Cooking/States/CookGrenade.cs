@@ -15,6 +15,7 @@ namespace EntityStates.Frag_Grenade_Cooking
         public static float selfForce = 4500f;
         public static GameObject overcookExplosionEffectPrefab;
         public static GameObject grenadeIndicatorPrefab = Resources.Load<GameObject>("prefabs/effects/muzzleflashes/MuzzleflashFMJ");
+        public static float selfBlastRadius = 14f;
 
         private float stopwatch;
         private bool grenadeThrown = false;
@@ -97,7 +98,7 @@ namespace EntityStates.Frag_Grenade_Cooking
             EffectManager.SpawnEffect(overcookExplosionEffectPrefab, new EffectData { origin = base.transform.position, scale = 11f }, true);
             new BlastAttack
             {
-                radius = 11f,
+                radius = selfBlastRadius,
                 attackerFiltering = AttackerFiltering.NeverHit,
                 baseDamage = this.damageStat * ThrowGrenade._damageCoefficient,
                 falloffModel = BlastAttack.FalloffModel.None,
