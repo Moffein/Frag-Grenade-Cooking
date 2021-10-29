@@ -14,8 +14,8 @@ using BepInEx.Configuration;
 namespace Frag_Grenade_Cooking
 {
     [BepInDependency("com.bepis.r2api")]
-    [BepInPlugin("com.Moffein.Frag_Grenade_Cooking", "Frag Grenade Cooking", "1.1.1")]
-    [R2API.Utils.R2APISubmoduleDependency(nameof(LanguageAPI), nameof(LoadoutAPI), nameof(PrefabAPI),  nameof(ProjectileAPI), nameof(NetworkingHelpers))]
+    [BepInPlugin("com.Moffein.Frag_Grenade_Cooking", "Frag Grenade Cooking", "1.1.2")]
+    [R2API.Utils.R2APISubmoduleDependency(nameof(LanguageAPI), nameof(LoadoutAPI), nameof(PrefabAPI),  nameof(ProjectileAPI), nameof(NetworkingHelpers), nameof(EffectAPI))]
     [NetworkCompatibility(CompatibilityLevel.EveryoneMustHaveMod, VersionStrictness.EveryoneNeedSameModVersion)]
     public class Frag_Grenade_Cooking : BaseUnityPlugin
     {
